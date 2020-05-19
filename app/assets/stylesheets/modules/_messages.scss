@@ -31,11 +31,11 @@
       &__btn{
         width: 60px;
         text-align: right;
-        &__edit{
+        &__edit__icon{
           color: #ffffff;
           text-decoration: none;
         }
-        &__set{
+        &__set__icon{
           color: #ffffff;
           padding-left: 5px;
         }
@@ -43,19 +43,26 @@
       }
     }
   
-  &__under {
-      background-color: #2f3e51;
-      height: calc(100vh - 100px);
+  &__under{
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
     &__new {
-      color: #ffffff;
-      font-size: 15px;
-      padding-top: 20px;
-      padding-bottom: 5px;
-      padding-right: 20px;
-      padding-left: 20px;
+      &__name {
+        color: #ffffff;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
       &__message {
+        color: #ffffff;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-size: 11px;
       }
+    }
     }
   }
   }
@@ -171,5 +178,4 @@
       }
   }
  }
-}
 }
