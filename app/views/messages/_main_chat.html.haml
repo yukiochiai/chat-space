@@ -9,11 +9,7 @@
       = link_to edit_group_path(@group.id), class: "main__header__edit--btn" do
         Edit
   .main__middle
-    .main__middle__dates
-      = render @messages
-    -#   .main__middle__dates__name
-    -#   .main__middle__dates__date
-    -# .main__middle__greet
+    = render @messages
   .main__form
     .main__form__message
       .main__form__message__box
