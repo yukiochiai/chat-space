@@ -4,7 +4,8 @@
       =@group.name
       .main__header__test__member
         Member:
-        =current_user.name
+        -@group.users.each do |user|
+          =user.name
     .main__header__edit
       = link_to edit_group_path(@group.id), class: "main__header__edit--btn" do
         Edit
