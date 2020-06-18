@@ -101,7 +101,7 @@ Devise.setup do |config|
   # requires the Devise mappings to be loaded during boot time the application
   # won't boot properly.
   # config.reload_routes = true
-
+  config.secret_key = '54cb03b9e4ba6b733b29cc0696686383b2645376c2c51ebe0268bf3f784f70a5f66f78fdaaccf649af96041ad086890b9593e5e2930c932e13dd35825b82ca53'
   # ==> Configuration for :database_authenticatable
   # For bcrypt, this is the cost for hashing the password and defaults to 11. If
   # using other algorithms, it sets how many times you want the password to be hashed.
