@@ -46,20 +46,19 @@
   &__under{
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    padding: 20px 20px;
     &__new {
+      margin-bottom: 40px;
+      a{
+        text-decoration: none;
+      }
       &__name {
         color: #ffffff;
         font-size: 15px;
-        padding-top: 20px;
-        padding-bottom: 5px;
-        padding-right: 20px;
-        padding-left: 20px;
+        margin-bottom: 5px;
       }
       &__message {
         color: #ffffff;
-        padding-bottom: 5px;
-        padding-right: 20px;
-        padding-left: 20px;
         font-size: 11px;
       }
     }
@@ -108,16 +107,16 @@
       padding: 46px 40px;
       overflow: scroll;
       .message { 
-        padding-top: 35px;
-        .upper-message{
+        padding-bottom: 40px;
+        .upper-message {
           margin-bottom: 10px;
-          &__user-name{
-            display: flex;
+          display: flex;
+          &__user-name {
             color: #434a54;
             font-size: 16px;
             font-weight: bold;
           }
-          &__date{
+          &__date {
             color: #999999;
             font-size: 12px;
             margin-left: 10px;
